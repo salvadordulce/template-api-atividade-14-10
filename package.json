@@ -1,0 +1,24 @@
+{
+  "name": "atividade-deploy-render-dulce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "@prisma/client": "^5.20.0",
+    "D": "^1.0.0",
+    "express": "^4.21.0",
+    "mysql2": "^3.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prisma": "^5.20.0"
+  }
+}
